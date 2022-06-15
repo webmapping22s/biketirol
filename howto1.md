@@ -83,3 +83,13 @@ Anzeige in der Karte funktioniert
     ```
 
 Achtung die Werte für bergauf/bergab sind weit fern der Realität
+
+**und noch einmal Achtung**: der Track wird nur lokal angezeigt und nicht auf github.com, da sich beim Link zum .gpx Track ein Fehler eingeschlichen hat: statt `../data` muss es `./data` heißen, denn sonst sucht der Browser den Track auf `https://usernamen.github.io/data` und nicht auf `https://usernamen.github.io/biketirol/data`, wo er eigentlich zu finden ist.
+
+Der Aufruf für lokal **und** online lautet damit:
+
+```javascript
+let gpxTrack = new L.GPX("./data/07.gpx", {
+        // ...
+}.addTo(overlays.gpx);
+```
