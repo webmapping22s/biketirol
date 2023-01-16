@@ -4,7 +4,7 @@
 ## Repo erstellen
 
 1. erstellt ein neues Repo `biketirol` in eurem Account auf github.com
-2. cloned das neue Repo lokal und packt dort das von uns vorbereitete Template [biketirol.zip](https://webmapping.github.io/templates/biketirol.zip) aus
+2. cloned das neue Repo lokal und packt dort das von uns vorbereitete Template [biketirol.zip](https://webmapping22s.github.io/templates/biketirol.zip) aus
 3. löst alle TODO Anweisungen in `index.html` entsprechen auf
 4. speichert den GPX Track eurer Etappe im Format **.gpx** lokal im Unterverzeichnis `data/`
 5. committed und pushed alle Schritte
